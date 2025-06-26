@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Rockfeller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="imagens/logo.webp" alt="Rockfeller Logo" class="logo-image">
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html#home" class="nav-link">Início</a></li>
+                        <li><a href="index.html#about" class="nav-link">Sobre</a></li>
+                        <li><a href="index.html#services" class="nav-link">Serviços</a></li>
+                        <li><a href="contato.html" class="btn-contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+    <section id="inscricao" class="contact">
+        <div class="container">
+            <h2>Formulário de Inscrição</h2>
+            <p class="text-center">Agende uma aula demonstrativa gratuita e conheça nosso método exclusivo.</p>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <input type="text" name="nome" placeholder="Seu nome completo" required>
+                    <input type="email" name="email" placeholder="Seu e-mail" required>
+                    <input type="number" name="idade" placeholder="Sua idade" min="1" required>
+                    <input type="tel" name="telefone" placeholder="Telefone para contato" pattern="^\(?\d{2}\)?[\s-]?\d{4,5}-?\d{4}$" required> 
+                    <select name="curso" required>
+                        <option value="" disabled selected>Selecione o curso</option>
+                        <option value="kids">Kids</option>
+                        <option value="teens">Teens</option>
+                        <option value="adults">Adults</option>
+                    </select>
+                    <button type="submit" class="btn-primary">Enviar Inscrição</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Rockfeller</h3>
+                    <p>Aprenda idiomas com quem entende de futuro.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html#home">Início</a></li>
+                        <li><a href="index.html#about">Sobre</a></li>
+                        <li><a href="index.html#services">Serviços</a></li>
+                        <li><a href="inscricao.html">Inscrição</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>Email: contato@rockfeller.com</p>
+                    <p>Telefone: (11) 1234-5678</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Rockfeller. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
